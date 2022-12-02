@@ -1,3 +1,4 @@
+import 'package:app/pages/empresa.dart';
 import 'package:app/pages/home.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      home: const Home(),
+      home: const EmpresaPage(),
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:app/pages/empresa.dart';
 import 'package:app/widget/appBar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -162,43 +163,50 @@ class _HomeState extends State<Home> {
                 ),
                 scrollDirection: Axis.vertical,
                 reverse: false,
-                itemBuilder: (context, index) => Container(
-                  padding: EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: color04,
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        child: Image.asset(
-                          'assets/images/enterprise-image.png',
+                itemBuilder: (context, index) => InkWell(
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => EmpresaPage(),
+                    ));
+                  },
+                  child: Container(
+                    padding: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: color04,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          child: Image.asset(
+                            'assets/images/enterprise-image.png',
+                          ),
+                          width: MediaQuery.of(context).size.width,
+                          decoration: BoxDecoration(
+                            color: color06,
+                            borderRadius: BorderRadius.circular(10),
+                          ),
                         ),
-                        width: MediaQuery.of(context).size.width,
-                        decoration: BoxDecoration(
-                          color: color06,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                      ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "Burger King",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Burger King",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
-                          ),
-                          Text(
-                            "Fast food Burger King",
-                            style: TextStyle(
-                                fontWeight: FontWeight.w500, color: color03),
-                          ),
-                        ],
-                      )
-                    ],
+                            Text(
+                              "Fast food Burger King",
+                              style: TextStyle(
+                                  fontWeight: FontWeight.w500, color: color03),
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
