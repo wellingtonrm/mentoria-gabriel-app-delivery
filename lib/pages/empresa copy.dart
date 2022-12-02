@@ -141,34 +141,32 @@ class _EmpresaPageState extends State<EmpresaPage> {
                               color: color04,
                               borderRadius: BorderRadius.circular(10),
                             ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            child: Column(
                               children: [
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.percent,
+                                      color: color05,
+                                      size: 13,
+                                    ),
+                                    SizedBox(
+                                      width: 5,
+                                    ),
+                                    Text(
+                                      '15% DE CASHBACK',
+                                      style: TextStyle(
+                                        color: color05,
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Row(
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Row(
-                                      children: [
-                                        Icon(
-                                          Icons.percent,
-                                          color: color05,
-                                          size: 13,
-                                        ),
-                                        SizedBox(
-                                          width: 5,
-                                        ),
-                                        Text(
-                                          '15% DE CASHBACK',
-                                          style: TextStyle(
-                                            color: color05,
-                                            fontSize: 13,
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
                                     Text(
                                       "Frango frito",
                                       style: TextStyle(
@@ -176,19 +174,6 @@ class _EmpresaPageState extends State<EmpresaPage> {
                                           fontWeight: FontWeight.bold,
                                           color: color02),
                                     ),
-                                    Text(
-                                      "Fast food . Burger",
-                                      style: TextStyle(
-                                          fontSize: 11,
-                                          fontWeight: FontWeight.bold,
-                                          color: color03),
-                                    ),
-                                  ],
-                                ),
-                                Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
                                     Container(
                                       child: Row(
                                         children: [
@@ -199,22 +184,12 @@ class _EmpresaPageState extends State<EmpresaPage> {
                                                 fontWeight: FontWeight.bold,
                                                 color: color02),
                                           ),
-                                          SizedBox(width: 10),
-                                          SizedBox(
-                                            height: 30,
-                                            width: 30,
-                                            child: TextButton(
-                                              child: Icon(
-                                                Icons.add,
-                                                color: color00,
-                                                size: 13,
-                                              ),
-                                              onPressed: () {},
-                                              style: ButtonStyle(
-                                                backgroundColor:
-                                                    MaterialStateProperty.all(
-                                                        color01),
-                                              ),
+                                          TextButton(
+                                            onPressed: () {},
+                                            child: Icon(
+                                              Icons.percent,
+                                              color: color05,
+                                              size: 13,
                                             ),
                                           )
                                         ],
