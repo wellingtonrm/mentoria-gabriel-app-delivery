@@ -8,19 +8,10 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../constants/icons.dart';
 import '../constants/color.dart';
 import '../model/empresa.model.dart';
+import '../store/empresas.store.dart';
 
-class Home extends StatefulWidget {
+class Home extends StatelessWidget {
   const Home({super.key});
-
-  @override
-  State<Home> createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
-  @override
-  void initState() {
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -159,9 +150,7 @@ class _HomeState extends State<Home> {
                               color: color01,
                             ),
                           ),
-                          onTap: () {
-                            setState(() {});
-                          },
+                          onTap: () {},
                         ),
                       ],
                     ),
@@ -182,7 +171,7 @@ class _HomeState extends State<Home> {
                         itemBuilder: (context, index) => InkWell(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => EmpresaPage(),
+                              builder: (context) => EmpresaPage(id: index),
                             ));
                           },
                           child: Container(

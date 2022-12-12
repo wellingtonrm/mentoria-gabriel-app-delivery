@@ -4,8 +4,8 @@
         "name": "Burguer King",
         "logoImage":"assets/images/enterprise-image.png",
         "description": "Fast food - Burger",
-        "discount": 15,
-        "waitingTime": "40 A 60 MIN",
+        "discount": 18,
+        "waitingTime": "10 A 60 MIN",
         "products": [
             {
                 "name": "Frango frito",
@@ -32,7 +32,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -74,7 +74,7 @@
         "name": "Burguer Dog",
         "description": "Fast food - Burger",
         "logoImage":"assets/images/enterprise-image.png",
-        "discount": 15,
+        "discount": 11,
         "waitingTime": "40 A 60 MIN",
         "products": [
             {
@@ -102,7 +102,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -120,7 +120,7 @@
         "name": "KSF Food",
         "description": "Fast food - Burger",
         "logoImage":"assets/images/enterprise-image.png",
-        "discount": 15,
+        "discount": 7,
         "waitingTime": "40 A 60 MIN",
         "products": [
             {
@@ -148,7 +148,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -194,7 +194,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -240,7 +240,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -286,7 +286,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -356,7 +356,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -402,7 +402,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -448,7 +448,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -494,7 +494,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -540,7 +540,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -586,7 +586,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -632,7 +632,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
@@ -678,7 +678,7 @@
                 "cashback": 15
             },
             {
-                "name": "Combo X - Tudo + Fritas + Refri",
+                "name": "Combo X ",
                 "description": "Combo com tudo que tem direito",
                 "price": 30.90,
                 "cashback": 15
